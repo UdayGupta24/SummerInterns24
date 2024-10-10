@@ -22,6 +22,12 @@ Empty Mini Grid
 
 SECTION-2:Graph plotting
 
+Reference for Images:
+1.reward VS episodes Frozen lake deterministic,2.stepsize VS episode Frozen Lake deterministic
+3.SARSA(backward view) reward Vs episode,4.SARSA(backward view) steps Vs episode,5.Monte Carlo reward Vs episode,
+6.Monte Carlo stepsize Vs episode,7.Q-Learning Reward Vs Episode,8.Q-learning Steps Vs Episode,
+9.SARSA reward Vs episode,10.SARSA stepVs Episode
+
 1. ![reward VS episodes Frozen lake deterministic](https://github.com/user-attachments/assets/2bee1deb-0971-4d3a-b8ae-d20a1c9f4c34)
 2. ![stepsize VS episode Frozen Lake deterministic](https://github.com/user-attachments/assets/dd6b24e7-5b88-4eff-bcb4-33e481f9dcf8)
 3. ![SARSA(backward view) reward Vs episode](https://github.com/user-attachments/assets/11a7b77b-af5f-42b8-aaea-49a0ea532dcb)
