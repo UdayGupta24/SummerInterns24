@@ -1,4 +1,4 @@
-SECTION-1:Environment discussion
+![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/080b277a-5f37-48b2-a73e-c9a7d8405e7b)SECTION-1:Environment discussion
 
 Two different environments will be discussed here:
 1.Frozen Lake.
@@ -44,7 +44,62 @@ SECTION-3:Tasks Given:
  1.FrozenLake: Solve the Frozen Lake problem by using General Policy Iteration and Value Iteration.
  2.Mini Grid:  Solve the Mini Grid Problem using Monte Carlo,Sarsa,Sarsa(backward View),Q-learning.
  
-Reinforcement Learning Environments Project
+### Reinforcement Learning Environments Project:
+## Overview  
+
+This project focuses on automating gameplay in the first-person shooter game, **Doom**. The aim is to demonstrate how automation can enhance or streamline gameplay experiences.To acheive this we have used Deep learning with reinforcement learning.We worked on intermediate tasks like FROZENLAKE,MINIGRID,TAXI-V3.
+
+## Tables of contents:
+# Environment Discussion
++FROZENLAKE
++MINIGRID
++TAXI-V3
++DOOMS
+# Graph Plotting
+# Tasks Given
+# Visualizations
+
+---
+
+##Environment Dicussion
+1.FROZENLAKE:
++Type: Complete Markov Process
+  +Transition probabilities are provided.
+  +Solved using Dynamic Programming since we know the complete dynamics.
++Modes: Deterministic and Stochastic
++State Space:
+ 16 states (represented by integers: 0-15)
++Termination Conditions:
+ +Falling into holes (5, 7, 11, 12)
+ +Reaching the Goal State (15)
+ +Reaching the maximum number of steps.
++Actions: Left (0), Down (1), Right (2), Up (3).
++Reward:
+ 0 everywhere except the Goal State, which gives 1.
+
+ ![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/2e3765dc-c939-4b13-9fef-644e6caa00ba)
+
+ 2. Empty MiniGrid
+ +Type: Partial Markov Process
+   +Transition probabilities are not available.
+   +Solved using Monte Carlo, SARSA, and Q-learning algorithms.
++Mode: Deterministic
++State Space:
+ +4x4 grid = 64 states
+ +Each block has coordinates with agent-facing directions (0, 1, 2, 3).
++Actions:
+ Turn Anti-Clockwise (0), Turn Clockwise (1), Move Forward (2).
++Termination Conditions:
+ +Reaching the Goal State
+ +Reaching the maximum number of steps.
+Reward:
+ 0 everywhere except the Goal State, which gives 1.
+![Untitled video - Made with Clipchamp (1)](https://github.com/user-attachments/assets/1e1d7367-e516-4038-ad34-b9e2b55d89ec)
+
+
+
+
+
 
 
 
