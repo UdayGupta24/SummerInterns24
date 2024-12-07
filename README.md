@@ -44,7 +44,7 @@ SECTION-3:Tasks Given:
  1.FrozenLake: Solve the Frozen Lake problem by using General Policy Iteration and Value Iteration.
  2.Mini Grid:  Solve the Mini Grid Problem using Monte Carlo,Sarsa,Sarsa(backward View),Q-learning.
  
-
+Reinforcement Learning Environments Project
 
 
 
