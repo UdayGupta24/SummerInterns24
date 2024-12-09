@@ -74,25 +74,26 @@ This project focuses on automating gameplay in the first-person shooter game, **
 #Environment Dicussion
 1.FROZENLAKE:  
 +Type: Complete Markov Process  
-  +Transition probabilities are provided.  
-  +Solved using Dynamic Programming since we know the complete dynamics.  
+   +Transition probabilities are provided.  
+   +Solved using Dynamic Programming since we know the complete dynamics.  
 +Modes: Deterministic and Stochastic  
 +State Space:  
- 16 states (represented by integers: 0-15)  
+  16 states (represented by integers: 0-15)  
 +Termination Conditions:  
- +Falling into holes (5, 7, 11, 12)  
- +Reaching the Goal State (15)  
- +Reaching the maximum number of steps.  
+  +Falling into holes (5, 7, 11, 12)  
+  +Reaching the Goal State (15)  
+  +Reaching the maximum number of steps.  
 +Actions: Left (0), Down (1), Right (2), Up (3).  
 +Reward:  
- 0 everywhere except the Goal State, which gives 1.  
+  0 everywhere except the Goal State, which gives 1.  
 ---
 ---
 ---
 
  ![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/2e3765dc-c939-4b13-9fef-644e6caa00ba)
+---
 
- 2. Empty MiniGrid  
+2.Empty MiniGrid  
  +Type: Partial Markov Process  
    +Transition probabilities are not available.  
    +Solved using Monte Carlo, SARSA, and Q-learning algorithms.  
