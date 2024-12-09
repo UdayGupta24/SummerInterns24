@@ -71,7 +71,7 @@ This project focuses on automating gameplay in the first-person shooter game, **
 ---
   
   
-#Environment Dicussion
+#Environment Dicussion  
 1.FROZENLAKE:  
 +Type: Complete Markov Process  
    +Transition probabilities are provided.  
@@ -93,7 +93,8 @@ This project focuses on automating gameplay in the first-person shooter game, **
  ![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/2e3765dc-c939-4b13-9fef-644e6caa00ba)
 ---
 
-2.Empty MiniGrid  
+  
+2.MINIGRID:    
  +Type: Partial Markov Process  
    +Transition probabilities are not available.  
    +Solved using Monte Carlo, SARSA, and Q-learning algorithms.  
@@ -109,6 +110,37 @@ This project focuses on automating gameplay in the first-person shooter game, **
 Reward:  
  0 everywhere except the Goal State, which gives 1.  
 ![Untitled video - Made with Clipchamp (1)](https://github.com/user-attachments/assets/1e1d7367-e516-4038-ad34-b9e2b55d89ec)  
+----
+
+3.TAXI-V3:
++Type: Fully Observable Markov Decision Process (MDP)  
+  +Transition probabilities are deterministic.  
+  +Solved using algorithms such as Policy Iteration, Value Iteration, Monte Carlo, SARSA, and Q-learning.  
++Mode: Deterministic  
++State Space:  
+ +A 5x5 grid, resulting in 500 discrete states.  
+ +State representation includes:
+ +The taxi's position (row and column).  
+ +Passenger's location (one of 4 possible positions or in the taxi).  
+ +Destination location (one of 4 positions).  
+Actions:  
+6 discrete actions:  
+ +Move South (0)   
+ +Move North (1)   
+ +Move East (2)    
+ +Move West (3)   
+ +Pick Up (4)   
+ +Drop Off (5)    
++Termination Conditions:
+  Passenger successfully delivered to the destination.  
+Reward:  
+  -1 for each time step (encourages efficient solutions).  
+ -10 for attempting to pick up or drop off a passenger incorrectly.  
+ +20 for successfully delivering the passenger to the destination.  
+---
+---  
+ ![Untitled video - Made with Clipchamp (2)](https://github.com/user-attachments/assets/c8835d68-8dea-437a-b91f-2ce1f9a9a62b)
+
 
 
 
