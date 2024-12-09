@@ -44,7 +44,7 @@ SECTION-3:Tasks Given:
  1.FrozenLake: Solve the Frozen Lake problem by using General Policy Iteration and Value Iteration.
  2.Mini Grid:  Solve the Mini Grid Problem using Monte Carlo,Sarsa,Sarsa(backward View),Q-learning.
  
-# Reinforcement Learning Environments Project:
+#Reinforcement Learning Environments Project:
 ---
 ## Overview  
 ---
@@ -52,17 +52,17 @@ This project focuses on automating gameplay in the first-person shooter game, **
 ---
 ## Tables of contents:
 ---
-# Environment Discussion
+### Environment Discussion
 ---
 +FROZENLAKE  
 +MINIGRID  
 +TAXI-V3  
 +DOOMS  
-# Graph Plotting
+### Graph Plotting
 ---
-# Tasks Given
+###Tasks Given
 ---
-# Visualizations
+### Visualizations
 ---
   
   
@@ -152,9 +152,10 @@ Reward:
  +-1 every moment agent is alive   
  +-5 for every bullet shot without hitting    
  +100 for shooting the monster  
-
  ---
 ![Untitled video - Made with Clipchamp (3)](https://github.com/user-attachments/assets/f95861a9-9479-4d2b-8694-05fce3d5e65c)
+----
+
 
 
 
