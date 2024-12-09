@@ -54,15 +54,10 @@ This project focuses on automating gameplay in the first-person shooter game, **
 ---
 # Environment Discussion
 ---
-  
-+FROZENLAKE
----
-+MINIGRID
----
-+TAXI-V3
----
-+DOOMS
----
++FROZENLAKE  
++MINIGRID  
++TAXI-V3  
++DOOMS  
 # Graph Plotting
 ---
 # Tasks Given
@@ -140,7 +135,26 @@ Reward:
 ---
 ---  
  ![Untitled video - Made with Clipchamp (2)](https://github.com/user-attachments/assets/c8835d68-8dea-437a-b91f-2ce1f9a9a62b)
+---
+4.DOOM:  
++Type: Partial Markov Process  
+   +Transition probabilities are not available.  
++Mode:Deterministic  
++State Space (Observations)
+  +Visual Input: The agent gets raw pixel data from the first-person view of the environment (i.e., the game screen). These are usually RGB frames (images) or grayscale.
+  +Size and resolution of these frames can be controlled.
+  +If multiple frames are stacked, it can form a history of states for better decision-making (similar to how humans remember past events to anticipate future outcomes).
++Action Space:  
+ +Turn left  
+ +Turn right 
+ +Shoot  
++The rewards:  
+ +-1 every moment agent is alive   
+ +-5 for every bullet shot without hitting    
+ +100 for shooting the monster  
 
+ ---
+![Untitled video - Made with Clipchamp (3)](https://github.com/user-attachments/assets/f95861a9-9479-4d2b-8694-05fce3d5e65c)
 
 
 
