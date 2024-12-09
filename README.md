@@ -54,7 +54,7 @@ This project focuses on automating gameplay in the first-person shooter game, **
 ---
 # Environment Discussion
 ---
----
+  
 +FROZENLAKE
 ---
 +MINIGRID
@@ -69,9 +69,8 @@ This project focuses on automating gameplay in the first-person shooter game, **
 ---
 # Visualizations
 ---
----
----
-
+  
+  
 #Environment Dicussion
 1.FROZENLAKE:  
 +Type: Complete Markov Process  
@@ -93,22 +92,22 @@ This project focuses on automating gameplay in the first-person shooter game, **
 
  ![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/2e3765dc-c939-4b13-9fef-644e6caa00ba)
 
- 2. Empty MiniGrid
- +Type: Partial Markov Process
-   +Transition probabilities are not available.
-   +Solved using Monte Carlo, SARSA, and Q-learning algorithms.
-+Mode: Deterministic
-+State Space:
- +4x4 grid = 64 states
- +Each block has coordinates with agent-facing directions (0, 1, 2, 3).
-+Actions:
- Turn Anti-Clockwise (0), Turn Clockwise (1), Move Forward (2).
-+Termination Conditions:
- +Reaching the Goal State
- +Reaching the maximum number of steps.
-Reward:
- 0 everywhere except the Goal State, which gives 1.
-![Untitled video - Made with Clipchamp (1)](https://github.com/user-attachments/assets/1e1d7367-e516-4038-ad34-b9e2b55d89ec)
+ 2. Empty MiniGrid  
+ +Type: Partial Markov Process  
+   +Transition probabilities are not available.  
+   +Solved using Monte Carlo, SARSA, and Q-learning algorithms.  
++Mode: Deterministic  
++State Space:  
+ +4x4 grid = 64 states  
+ +Each block has coordinates with agent-facing directions (0, 1, 2, 3).  
++Actions:  
+ Turn Anti-Clockwise (0), Turn Clockwise (1), Move Forward (2).  
++Termination Conditions:  
+ +Reaching the Goal State  
+ +Reaching the maximum number of steps.  
+Reward:  
+ 0 everywhere except the Goal State, which gives 1.  
+![Untitled video - Made with Clipchamp (1)](https://github.com/user-attachments/assets/1e1d7367-e516-4038-ad34-b9e2b55d89ec)  
 
 
 
