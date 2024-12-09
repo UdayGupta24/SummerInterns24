@@ -66,7 +66,7 @@ This project focuses on automating gameplay in the first-person shooter game, **
 ---
   
   
-#Environment Dicussion  
+# Environment Dicussion  
 1.FROZENLAKE:  
 +Type: Complete Markov Process  
    +Transition probabilities are provided.  
