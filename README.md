@@ -1,8 +1,8 @@
 
-#Deep Reinforcement Learning  Project:
----
+# Deep Reinforcement Learning  Project:
+       
 ## Overview  
----
+       
 This project focuses on automating gameplay in the first-person shooter game, **Doom**. The aim is to demonstrate how automation can enhance or streamline gameplay experiences.To acheive this we have used Deep learning with reinforcement learning.We worked on intermediate tasks like FROZENLAKE,MINIGRID,TAXI-V3.
 ---
 ## Tables of contents:
