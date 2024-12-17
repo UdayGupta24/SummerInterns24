@@ -117,7 +117,7 @@ Reward:
    .Monte Carlo Minigrid reward Vs episode  
 6.![Monte Carlo stepsize Vs episode](https://github.com/user-attachments/assets/f3c186d6-7e6c-4e03-a8e4-7c0ef4469658)
    .Monte Carlo  Minigrid stepsize Vs episode  
-7. ![Q-Learning Reward Vs Episode](https://github.com/user-attachments/assets/e5204fef-4b14-46c0-8c09-5cf4f21b3b85)
+7.![Q-Learning Reward Vs Episode](https://github.com/user-attachments/assets/e5204fef-4b14-46c0-8c09-5cf4f21b3b85)
    .Q-Learning Minigrid Reward Vs Episode  
 8.![Q-learning Steps Vs Episode](https://github.com/user-attachments/assets/edd5739b-c6c2-4ffc-b58d-ad57f7e3f9ad)
   .Q-learning Minigrid Steps Vs Episode    
