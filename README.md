@@ -131,6 +131,19 @@ Reward:
   .DQN DOOM Length Vs Time steps    
 
 
+
+ ## Project Files
+
+| File Name                            | Description                     |
+|--------------------------------------|---------------------------------|
+| FrozenLake_solved_commented.py     | Solves FrozenLake environment   |
+| Taxi_v3_commented.py               | Solves Taxi-v3 environment      |
+| DQN code for DOOM.py               | DQN implementation for DOOM     |
+| montecarlo_minigrid.py             | Monte Carlo algorithm for Minigrid |
+| q-learning_minigrid.py             | Q-Learning implementation       |
+| sarsa(lambda, backward_view)minigrid.py | SARSA with lambda for Minigrid |
+| README.md                          | Documentation for the project   |
+
    
    
 
