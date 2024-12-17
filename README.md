@@ -32,8 +32,8 @@ This project focuses on automating gameplay in the first-person shooter game, **
   +Reaching the Goal State (15)  
   +Reaching the maximum number of steps.  
 +Actions: Left (0), Down (1), Right (2), Up (3).  
-+Reward:  
-  0 everywhere except the Goal State, which gives 1. 
++Reward:
+ 0 everywhere except the Goal State, which gives 1.    
  ![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/2e3765dc-c939-4b13-9fef-644e6caa00ba)
 
        
