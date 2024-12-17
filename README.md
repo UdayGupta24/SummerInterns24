@@ -108,27 +108,27 @@ Reward:
 1. ![reward VS episodes Frozen lake deterministic](https://github.com/user-attachments/assets/2bee1deb-0971-4d3a-b8ae-d20a1c9f4c34)
    .reward VS episodes Frozen lake deterministic  
 2. ![stepsize VS episode Frozen Lake deterministic](https://github.com/user-attachments/assets/dd6b24e7-5b88-4eff-bcb4-33e481f9dcf8)
-   .stepsize VS episode Frozen Lake deterministic  
+   .stepsize VS episode Frozen Lake deterministic    
 3. ![SARSA(backward view) reward Vs episode](https://github.com/user-attachments/assets/11a7b77b-af5f-42b8-aaea-49a0ea532dcb)
-   .SARSA(backward view) Minigrid reward Vs episode  
+   .SARSA(backward view) Minigrid reward Vs episode    
 4. ![SARSA(backward view) steps Vs episode](https://github.com/user-attachments/assets/ccfe814a-04d7-4696-81a1-c297748b4d00)
-   .SARSA(backward view) Minigrid steps Vs episode  
+   .SARSA(backward view) Minigrid steps Vs episode    
 5.![Monte Carlo reward Vs episode](https://github.com/user-attachments/assets/b3c79969-d5e5-4bce-b9d6-8aa5518c7524)
-   .Monte Carlo Minigrid reward Vs episode  
+   .Monte Carlo Minigrid reward Vs episode    
 6.![Monte Carlo stepsize Vs episode](https://github.com/user-attachments/assets/f3c186d6-7e6c-4e03-a8e4-7c0ef4469658)
-   .Monte Carlo  Minigrid stepsize Vs episode  
+   .Monte Carlo  Minigrid stepsize Vs episode    
 7.![Q-Learning Reward Vs Episode](https://github.com/user-attachments/assets/e5204fef-4b14-46c0-8c09-5cf4f21b3b85)
-   .Q-Learning Minigrid Reward Vs Episode  
+   .Q-Learning Minigrid Reward Vs Episode    
 8.![Q-learning Steps Vs Episode](https://github.com/user-attachments/assets/edd5739b-c6c2-4ffc-b58d-ad57f7e3f9ad)
-  .Q-learning Minigrid Steps Vs Episode    
+  .Q-learning Minigrid Steps Vs Episode      
 9.![SARSA reward Vs episode](https://github.com/user-attachments/assets/146c581d-d19c-41b0-be63-e3c6dd6eeab5)
- .Sarsa Minigrid Steps Vs Episode    
+ .Sarsa Minigrid Steps Vs Episode      
 10.![SARSA stepVs Episode](https://github.com/user-attachments/assets/473cf61c-4704-42a8-97ae-4197743de3a5)
-  .SARSA Minigrid stepVs Episode    
+  .SARSA Minigrid stepVs Episode      
 11.![ep_reward Vs timesteps](https://github.com/user-attachments/assets/54a3cc78-29d1-471d-9f0b-a03b7e4c343c)
-  .DQN DOOM reward Vs Time steps    
+  .DQN DOOM reward Vs Time steps      
 12.![ep_length Vs Timesteps](https://github.com/user-attachments/assets/43a1e41b-5ccc-4508-a1b2-7218476f97a8)
-  .DQN DOOM Length Vs Time steps    
+  .DQN DOOM Length Vs Time steps      
 
 
 
