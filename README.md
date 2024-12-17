@@ -4,23 +4,21 @@
 ## Overview  
        
 This project focuses on automating gameplay in the first-person shooter game, **Doom**. The aim is to demonstrate how automation can enhance or streamline gameplay experiences.To acheive this we have used Deep learning with reinforcement learning.We worked on intermediate tasks like FROZENLAKE,MINIGRID,TAXI-V3.
----
+      
 ## Tables of contents:
----
+     
 ### Environment Discussion
----
+    
 +FROZENLAKE  
 +MINIGRID  
 +TAXI-V3  
 +DOOMS  
 ### Graph Plotting
----
-###Tasks Given
----
+    
+### Tasks Given
+  
 ### Visualizations
----
-  
-  
+      
 # Environment Dicussion  
 1.FROZENLAKE:  
 +Type: Complete Markov Process  
@@ -35,15 +33,10 @@ This project focuses on automating gameplay in the first-person shooter game, **
   +Reaching the maximum number of steps.  
 +Actions: Left (0), Down (1), Right (2), Up (3).  
 +Reward:  
-  0 everywhere except the Goal State, which gives 1.  
----
----
----
-
+  0 everywhere except the Goal State, which gives 1. 
  ![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/2e3765dc-c939-4b13-9fef-644e6caa00ba)
----
 
-  
+       
 2.MINIGRID:    
  +Type: Partial Markov Process  
    +Transition probabilities are not available.  
@@ -60,8 +53,8 @@ This project focuses on automating gameplay in the first-person shooter game, **
 Reward:  
  0 everywhere except the Goal State, which gives 1.  
 ![Untitled video - Made with Clipchamp (1)](https://github.com/user-attachments/assets/1e1d7367-e516-4038-ad34-b9e2b55d89ec)  
-----
 
+      
 3.TAXI-V3:
 +Type: Fully Observable Markov Decision Process (MDP)  
   +Transition probabilities are deterministic.  
@@ -87,10 +80,10 @@ Reward:
   -1 for each time step (encourages efficient solutions).  
  -10 for attempting to pick up or drop off a passenger incorrectly.  
  +20 for successfully delivering the passenger to the destination.  
----
----  
  ![Untitled video - Made with Clipchamp (2)](https://github.com/user-attachments/assets/c8835d68-8dea-437a-b91f-2ce1f9a9a62b)
----
+
+
+          
 4.DOOM:  
 +Type: Partial Markov Process  
    +Transition probabilities are not available.  
@@ -107,12 +100,11 @@ Reward:
  +-1 every moment agent is alive   
  +-5 for every bullet shot without hitting    
  +100 for shooting the monster  
- ---
 ![Untitled video - Made with Clipchamp (3)](https://github.com/user-attachments/assets/f95861a9-9479-4d2b-8694-05fce3d5e65c)
-----
-
+     
+     
 # GRAPH PLOTTING.
----
+      
 1. ![reward VS episodes Frozen lake deterministic](https://github.com/user-attachments/assets/2bee1deb-0971-4d3a-b8ae-d20a1c9f4c34)
    .reward VS episodes Frozen lake deterministic
 2. ![stepsize VS episode Frozen Lake deterministic](https://github.com/user-attachments/assets/dd6b24e7-5b88-4eff-bcb4-33e481f9dcf8)
@@ -126,17 +118,17 @@ Reward:
 6.![Monte Carlo stepsize Vs episode](https://github.com/user-attachments/assets/f3c186d6-7e6c-4e03-a8e4-7c0ef4469658)
    .Monte Carlo  Minigrid stepsize Vs episode
 7. ![Q-Learning Reward Vs Episode](https://github.com/user-attachments/assets/e5204fef-4b14-46c0-8c09-5cf4f21b3b85)
-   .Q-Learning Minigrid Reward Vs Episode  
+   .Q-Learning Minigrid Reward Vs Episode     
 8.![Q-learning Steps Vs Episode](https://github.com/user-attachments/assets/edd5739b-c6c2-4ffc-b58d-ad57f7e3f9ad)
-  .Q-learning Minigrid Steps Vs Episode
+  .Q-learning Minigrid Steps Vs Episode  
 9.![SARSA reward Vs episode](https://github.com/user-attachments/assets/146c581d-d19c-41b0-be63-e3c6dd6eeab5)
- .Sarsa Minigrid Steps Vs Episode
+ .Sarsa Minigrid Steps Vs Episode  
 10.![SARSA stepVs Episode](https://github.com/user-attachments/assets/473cf61c-4704-42a8-97ae-4197743de3a5)
-  .SARSA Minigrid stepVs Episode
+  .SARSA Minigrid stepVs Episode  
 11.![ep_reward Vs timesteps](https://github.com/user-attachments/assets/54a3cc78-29d1-471d-9f0b-a03b7e4c343c)
-  .DQN DOOM reward Vs Time steps
+  .DQN DOOM reward Vs Time steps  
 12.![ep_length Vs Timesteps](https://github.com/user-attachments/assets/43a1e41b-5ccc-4508-a1b2-7218476f97a8)
-  .DQN DOOM Length Vs Time steps
+  .DQN DOOM Length Vs Time steps  
 
 
    
