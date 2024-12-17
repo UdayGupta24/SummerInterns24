@@ -1,5 +1,5 @@
 
-#Reinforcement Learning Environments Project:
+#Deep Reinforcement Learning  Project:
 ---
 ## Overview  
 ---
@@ -132,7 +132,13 @@ Reward:
 9.![SARSA reward Vs episode](https://github.com/user-attachments/assets/146c581d-d19c-41b0-be63-e3c6dd6eeab5)
  .Sarsa Minigrid Steps Vs Episode
 10.![SARSA stepVs Episode](https://github.com/user-attachments/assets/473cf61c-4704-42a8-97ae-4197743de3a5)
-  .SARSA Minigrid stepVs Episode  
+  .SARSA Minigrid stepVs Episode
+11.![ep_reward Vs timesteps](https://github.com/user-attachments/assets/54a3cc78-29d1-471d-9f0b-a03b7e4c343c)
+  .DQN DOOM reward Vs Time steps
+12.![ep_length Vs Timesteps](https://github.com/user-attachments/assets/43a1e41b-5ccc-4508-a1b2-7218476f97a8)
+  .DQN DOOM Length Vs Time steps
+
+
    
    
 
